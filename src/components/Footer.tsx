@@ -14,11 +14,11 @@ const Footer = () => {
   ];
 
   const resources = [
-    { name: './download_cv.sh', href: '#' },
+    { name: './download_cv.sh', href: '/Sulakshan_Joshi__Resume.pdf', download: 'Sulakshan_Joshi__Resume.pdf' },
     { name: './github_portfolio', href: 'https://github.com/Sulakshan69' },
     { name: './linkedin_profile', href: 'https://www.linkedin.com/in/sulakshan-joshi/' },
     { name: './send_email.sh', href: 'mailto:Sulakshanjoshi1@gmail.com' },
-  ];
+  ] as const;
 
   return (
     <footer
@@ -104,6 +104,7 @@ const Footer = () => {
                 <li key={index}>
                   <a
                     href={resource.href}
+                    download={(resource as { download?: string }).download}
                     target={resource.href.startsWith('http') ? '_blank' : undefined}
                     rel={resource.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                     className="text-xs transition-all duration-200"

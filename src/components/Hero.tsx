@@ -84,12 +84,14 @@ const Hero = () => {
             >
               ./view_projects.sh
             </a>
-            <button
+            <a
+              href="/Sulakshan_Joshi__Resume.pdf"
+              download="Sulakshan_Joshi__Resume.pdf"
               className="btn-terminal px-8 py-3 rounded text-sm"
               style={{ fontFamily: "'Share Tech Mono', monospace" }}
             >
               ./download_cv.sh
-            </button>
+            </a>
           </div>
 
           <div className="flex justify-center space-x-6">
