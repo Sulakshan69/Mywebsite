@@ -76,7 +76,7 @@ const Header = () => {
               style={{ fontFamily: "'Share Tech Mono', monospace" }}
             >
               <Download className="h-4 w-4" />
-              <span>./cv.pdf</span>
+              <span>./resume.pdf</span>
             </a>
           </nav>
 
@@ -118,7 +118,7 @@ const Header = () => {
                 style={{ fontFamily: "'Share Tech Mono', monospace" }}
               >
                 <Download className="h-4 w-4" />
-                <span>./download_cv.sh</span>
+                <span>./download_resume.sh</span>
               </a>
             </div>
           </div>

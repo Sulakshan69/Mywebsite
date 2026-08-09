@@ -90,7 +90,7 @@ const Hero = () => {
               className="btn-terminal px-8 py-3 rounded text-sm"
               style={{ fontFamily: "'Share Tech Mono', monospace" }}
             >
-              ./download_cv.sh
+              ./download_resume.sh
             </a>
           </div>
 

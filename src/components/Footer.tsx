@@ -14,7 +14,7 @@ const Footer = () => {
   ];
 
   const resources = [
-    { name: './download_cv.sh', href: '/Sulakshan_Joshi__Resume.pdf', download: 'Sulakshan_Joshi__Resume.pdf' },
+    { name: './download_resume.sh', href: '/Sulakshan_Joshi__Resume.pdf', download: 'Sulakshan_Joshi__Resume.pdf' },
     { name: './github_portfolio', href: 'https://github.com/Sulakshan69' },
     { name: './linkedin_profile', href: 'https://www.linkedin.com/in/sulakshan-joshi/' },
     { name: './send_email.sh', href: 'mailto:Sulakshanjoshi1@gmail.com' },
