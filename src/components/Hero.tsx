@@ -85,7 +85,7 @@ const Hero = () => {
               ./view_projects.sh
             </a>
             <a
-              href="/Sulakshan_Joshi__Resume.pdf"
+              href="/Sulakshan_Joshi_Resume.pdf"
               download="Sulakshan_Joshi__Resume.pdf"
               className="btn-terminal px-8 py-3 rounded text-sm"
               style={{ fontFamily: "'Share Tech Mono', monospace" }}

@@ -63,7 +63,7 @@ const Resume = () => {
           <div style={{ width: '120px', height: '1px', background: 'rgba(0,255,65,0.4)', boxShadow: '0 0 8px rgba(0,255,65,0.4)', marginTop: '12px' }} />
           <div className="mt-8">
             <a
-              href="/Sulakshan_Joshi__Resume.pdf"
+              href="/Sulakshan_Joshi_Resume.pdf"
               download="Sulakshan_Joshi__Resume.pdf"
               className="btn-terminal inline-flex items-center space-x-2 px-6 py-3 rounded text-sm"
               style={mono}

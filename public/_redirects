@@ -4,7 +4,7 @@
 /contact /success.html 200
 
 # Serve static assets directly (do not let SPA fallback intercept them)
-/Sulakshan_Joshi__Resume.pdf  /Sulakshan_Joshi__Resume.pdf  200
+/Sulakshan_Joshi_Resume.pdf  /Sulakshan_Joshi_Resume.pdf  200
 
 # SPA fallback - this should be last
 /*    /index.html   200

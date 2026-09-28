@@ -70,7 +70,7 @@ const Header = () => {
               </a>
             ))}
             <a
-              href="/Sulakshan_Joshi__Resume.pdf"
+              href="/Sulakshan_Joshi_Resume.pdf"
               download="Sulakshan_Joshi__Resume.pdf"
               className="btn-terminal flex items-center space-x-2 px-4 py-2 ml-2 text-sm rounded"
               style={{ fontFamily: "'Share Tech Mono', monospace" }}
@@ -112,7 +112,7 @@ const Header = () => {
                 </a>
               ))}
               <a
-                href="/Sulakshan_Joshi__Resume.pdf"
+                href="/Sulakshan_Joshi_Resume.pdf"
                 download="Sulakshan_Joshi__Resume.pdf"
                 className="btn-terminal flex items-center justify-center space-x-2 px-4 py-2 mt-2 text-sm rounded"
                 style={{ fontFamily: "'Share Tech Mono', monospace" }}
